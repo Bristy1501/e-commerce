@@ -38,10 +38,12 @@
     margin-bottom: 20px;
     padding-right: 460px;
 }
-.btn-container{
+
+.btn-container {
     display: flex;
     flex-direction: row;
 }
+
 .btn {
     margin-top: 30px;
     padding: 10px 20px 10px 20px;
@@ -272,7 +274,7 @@ footer {
     line-height: 25px;
 }
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 768px) {
 
     .banner-disc {
         font-size: 20px;
@@ -280,6 +282,7 @@ footer {
         margin-bottom: 20px;
         padding-right: 10px;
     }
+
     .brand-container {
         display: flex;
         flex-wrap: wrap;
@@ -340,7 +343,7 @@ footer {
         /* Adjust font size for smaller screens */
         top: 0;
         margin-top: 30px;
-        padding-left:270px;
+        padding-left: 270px;
         padding-right: 270px;
         text-align: center;
         font-weight: 500;
@@ -452,7 +455,7 @@ footer {
         /* Adjust font size for smaller screens */
         top: 0;
         margin-top: 30px;
-        padding-left:55px;
+        padding-left: 55px;
         padding-right: 55px;
         text-align: center;
         font-weight: 500;
@@ -461,11 +464,7 @@ footer {
     .friday>img {
         height: 300px;
     }
-    
-
-   
-.section-disc {
-  
-    padding-right: 20px;
-}
+    .section-disc {
+        padding-right: 20px;
+    }
 }
