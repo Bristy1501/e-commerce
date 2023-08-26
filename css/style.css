@@ -9,11 +9,15 @@
     background-image: url('../images/header.jpg');
     background-repeat: no-repeat;
     color: white;
+    min-height: 500px;
+    /* max-width: 1200px; */
 }
 
 .banner-content {
     padding-top: 130px;
     padding-left: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .banner-header {
@@ -34,7 +38,10 @@
     margin-bottom: 20px;
     padding-right: 460px;
 }
-
+.btn-container{
+    display: flex;
+    flex-direction: row;
+}
 .btn {
     margin-top: 30px;
     padding: 10px 20px 10px 20px;
@@ -102,11 +109,10 @@
     display: grid;
     grid-template-columns: 3fr 1.5fr;
     gap: 30px;
-    margin: auto 40px;
+    margin: 0px 40px 80px 40px;
     width: 1150px;
     height: 300px;
-    /* background-position: center; */
-    margin-bottom: 80px;
+
 }
 
 .offer {
@@ -134,11 +140,6 @@
 .friday {
     position: relative;
 
-}
-
-.friday-title {
-    font-size: 30px;
-    font-weight: 200;
 }
 
 .friday>img {
@@ -269,4 +270,202 @@ footer {
     font-weight: 100;
     margin-top: 12px;
     line-height: 25px;
+}
+
+@media screen and (max-width: 768px)  {
+
+    .banner-disc {
+        font-size: 20px;
+        font-weight: 100;
+        margin-bottom: 20px;
+        padding-right: 10px;
+    }
+    .brand-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .product-details-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .product-list-card-container {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .offer-container {
+        grid-template-columns: 1fr;
+        /* Switch to single column layout */
+        gap: 20px;
+        /* Adjust gap */
+        padding: 0;
+        width: 700px;
+        height: 600px;
+        margin: 0px 40px 0px 40px;
+
+    }
+
+    .offer {
+        height: 250px;
+
+    }
+
+    .friday {
+        height: 350px;
+
+    }
+
+    .offer-title {
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+        margin-top: 15px;
+        /* Adjust margin */
+    }
+
+    .offer-disc {
+        font-size: 12px;
+        /* Adjust font size for smaller screens */
+        line-height: 18px;
+
+        /* Adjust line height */
+    }
+
+    .friday-title {
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+        top: 0;
+        margin-top: 30px;
+        padding-left:270px;
+        padding-right: 270px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .friday>img {
+        height: 300px;
+    }
+
+    .product-container {
+        margin-bottom: 40px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .section-title {
+        padding-top: 40px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .banner-container {
+        min-height: 330px;
+    }
+
+    .banner-content {
+        padding-top: 100px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+
+    .banner-header {
+        font-size: 40px;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
+
+    .banner-title {
+        font-size: 20px;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+
+    .banner-disc {
+        font-size: 15px;
+        font-weight: 100;
+        margin-bottom: 20px;
+        padding-right: 40px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+
+
+    .brand-container {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 80px;
+
+    }
+
+    .offer-container {
+        grid-template-columns: 1fr;
+        /* Switch to single column layout */
+        gap: 20px;
+        /* Adjust gap */
+        padding: 0;
+        width: 300px;
+        height: 600px;
+        margin: 0px 0px 0px 10px;
+
+    }
+
+    .offer {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    .friday {
+        width: 300px;
+        height: 350px;
+
+    }
+
+    .offer-title {
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+        margin-top: 15px;
+        /* Adjust margin */
+    }
+
+    .offer-disc {
+        font-size: 12px;
+        /* Adjust font size for smaller screens */
+        line-height: 18px;
+        padding-right: 0px;
+
+        /* Adjust line height */
+    }
+
+    .friday-title {
+        font-size: 20px;
+        /* Adjust font size for smaller screens */
+        top: 0;
+        margin-top: 30px;
+        padding-left:55px;
+        padding-right: 55px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .friday>img {
+        height: 300px;
+    }
+    
+
+   
+.section-disc {
+  
+    padding-right: 20px;
+}
 }
